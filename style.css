@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&family=Sacramento&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+    background: linear-gradient(68.15deg, #50003d 16.62%, #ce61a4 85.61%);
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 12px;
+}
+
+.cabecalho-imagem {
+    height: 90px;
+}
+
+.cabecalho-menu {
+    display: flex;
+    gap: 32px;
+}
+
+.cabecalho-menu-item {
+    font-family: 'Comfortaa', cursive;
+    color: #FFF2E7;
+    font-weight: 400;
+    font-size: 22px;
+}
+
+.conteudo {
+    margin-bottom: 30px;
+    border-top: 0.4px solid #FFF2E7;
+}
+
+.conteudo-principal {
+    margin-top: 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.conteudo-principal-escrito {
+    display: flex;
+    flex-direction: column;
+    gap: 0.2px;
+    
+}
+
+.conteudo-principal-escrito-titulo {
+    font-family: 'Sacramento', cursive;
+    font-weight: 400;
+    font-size: 80px;
+    color: #FFF2E7;
+}
+
+.conteudo-principal-escrito-subtitulo {
+    font-family: 'Comfortaa', cursive;
+    font-weight: 400;
+    font-size: 24px;
+    color: #FFF2E7;
+    margin-left: 120px;
+}
+
+.conteudo-secundario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin-top: 32px;
+}
+
+.conteudo-secundario-titulo {
+    border-top: 0.4px solid #FFF2E7;
+    padding-top: 48px;
+    font-family: 'Comfortaa', cursive;
+    font-weight: 400;
+    font-size: 22px;
+    color: #efb7da;
+    margin-bottom: 4px;
+}
+
+.conteudo-secundario-paragrafo {
+    font-family: 'Comfortaa', cursive;
+    font-weight: 300;
+    font-size: 16px;
+    color: #efb7da;
+}
+
+.rodape {
+    padding: 32px;
+    border-top: 0.4px solid #FFF2E7;
+}
+
+.rodape-imagem {
+    height: 48px;
+    display: block;
+    margin: 0 auto;
+}
+
